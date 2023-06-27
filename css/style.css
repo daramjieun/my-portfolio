@@ -374,3 +374,32 @@ button:focus {
      height: 2px;
      background-color: var(--color-accent);
 }
+
+/* Testimonial */
+.testimonials {
+    margin: 3rem;
+}
+
+.testimonial {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+.testimonial:nth-child(even) .testimonial__img{
+    order: 1;
+}
+
+.testimonial__img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    box-shadow: 4.0px 8.0px 8.0px rgba(0,0,0,0.38);
+}
+
+.testimonial__bubble {
+    box-shadow: 4.0px 8.0px 8.0px rgba(0,0,0,0.38);
+    padding: 1rem;
+    border-radius: 8px;
+}
