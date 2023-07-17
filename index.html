@@ -7,7 +7,7 @@
     <!-- SEO -->
     <title>Jieun&#39;s Portfolio</title>
     <meta 
-    name= "description" 
+    name= "description"
     content="portfolio for developer Jieun" />
     <meta name="author" content="Jieun" />
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
@@ -30,13 +30,20 @@
         rel="stylesheet" 
     />
     <!-- Font Awesome-->
-    <script src="https://kit.fontawesome.com/e604821901.js" crossorigin="anonymous"></script>
+    <script 
+        src="https://kit.fontawesome.com/e604821901.js" 
+        crossorigin="anonymous">
+    </script>
+    <!-- Typeit -->
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
     <!--Javascript-->
     <script src="src/main.js" defer></script>
     <script src="src/projects.js" defer></script> 
     <script src="src/active_menu.js" defer></script>
+    <script src="src/type.js" defer></script>
+
 </head>    
 <body>
     <!--Header-->
@@ -65,11 +72,14 @@
         <section id="home">
             <div class="home__container">
                 <img class="home__avatar" src="images/profile photo.jpg" alt="Jieun's profile">
-            <h2 class="home__title">LEE JIEUN<br />I&#39;m <strong class="home__title--strong">Front-End</strong> Developer</h2>
+            <h2 class="home__title" aria-label="I'm JIEUN. I'm Front-End Developer">
+                LEE JIEUN<br />I&#39;m 
+                <strong class="home__title--strong">Front-End</strong> Developer
+            </h2>
             <p class="home__description">
             어제의 자신을 극복해 나가는 프론트엔드 개발자입니다.<br />
             꾸준히 발전하고 성장하는 것을 즐깁니다.
-            </p> 
+            </p>
             <a class="home__contact" href="#contact">Contact Me</a>
             </div>
         </section>
@@ -168,7 +178,7 @@
                         </ul>
                     </section>
                 </div>
-            </div>    
+            </div>
         </section>
         <!--Work-->
         <section id="work" class="section">
